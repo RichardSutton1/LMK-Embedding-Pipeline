@@ -1,0 +1,272 @@
+QA_RAW = [
+    {
+        "id": "q001",
+        "question": "",
+        "answer_text": "",
+        "gold_sentence_idx": "",
+    },
+    {
+        "id": "q002",
+        "question": "",
+        "answer_text": "",
+        "gold_sentence_idx": ""
+    },
+    {
+        "id": "q003",
+        "question": "",
+        "answer_text": "",
+        "gold_sentence_idx": "",
+    },
+    {
+        "id": "q004",
+        "question": "",
+        "answer_text": "",
+        "gold_sentence_idx": "",
+    },
+    {
+        "id": "q005",
+        "question": "",
+        "answer_text": "",
+        "gold_sentence_idx": ""
+    },
+    {
+        "id": "q006",
+        "question": "",
+        "answer_text": "",
+        "gold_sentence_idx": ""
+    },
+    {
+        "id": "q007",
+        "question": "",
+        "answer_text": "",
+        "gold_sentence_idx": ""
+    },
+    {
+        "id": "q008",
+        "question": "",
+        "answer_text": "",
+        "gold_sentence_idx": ""
+    },
+    {
+        "id": "q009",
+        "question": "",
+        "answer_text": "",
+        "gold_sentence_idx": "",
+    },
+    {
+        "id": "q010",
+        "question": "",
+        "answer_text": "",
+        "gold_sentence_idx": "",
+    },
+    {
+        "id": "q011",
+        "question": "",
+        "answer_text": "",
+        "gold_sentence_idx": "",
+    },
+    {
+        "id": "q012",
+        "question": "",
+        "answer_text": "",
+        "gold_sentence_idx": "",
+    },
+    {
+        "id": "q013",
+        "question": "",
+        "answer_text": "",
+        "gold_sentence_idx": "",
+    },
+    {
+        "id": "q014",
+        "question": "",
+        "answer_text": "",
+        "gold_sentence_idx": "",
+    },
+    {
+        "id": "q015",
+        "question": "",
+        "answer_text": "",
+        "gold_sentence_idx": "",
+    },
+    {
+        "id": "q016",
+        "question": "",
+        "answer_text": "",
+        "gold_sentence_idx": "",
+    },
+    {
+        "id": "q017",
+        "question": "",
+        "answer_text": "",
+        "gold_sentence_idx": "",
+    },
+    {
+        "id": "q018",
+        "question": "",
+        "answer_text": "",
+        "gold_sentence_idx": "",
+    },
+    {
+        "id": "q019",
+        "question": "",
+        "answer_text": "",
+        "gold_sentence_idx": "",
+    },
+    {
+        "id": "q024",
+        "question": "",
+        "answer_text": "",
+        "gold_sentence_idx": "",
+    },
+    {
+        "id": "q025",
+        "question": "",
+        "answer_text": "",
+        "gold_sentence_idx": "",
+    },
+    {
+        "id": "q026",
+        "question": "",
+        "answer_text": "",
+        "gold_sentence_idx": "",
+    },
+    {
+        "id": "q027",
+        "question": "",
+        "answer_text": "",
+        "gold_sentence_idx": "",
+    },
+    {
+        "id": "q029",
+        "question": "",
+        "answer_text": "",
+        "gold_sentence_idx": ""
+    },
+    {
+        "id": "q030",
+        "question": "",
+        "answer_text": "",
+        "gold_sentence_idx": "",
+    },
+    {
+        "id": "q031",
+        "question": "",
+        "answer_text": "",
+        "gold_sentence_idx": "",
+    },
+    {
+        "id": "q032",
+        "question": "",
+        "answer_text": "",
+        "gold_sentence_idx": "",
+    },
+    {
+        "id": "q033",
+        "question": "",
+        "answer_text": "",
+        "gold_sentence_idx": "",
+    },
+    {
+        "id": "q034",
+        "question": "",
+        "answer_text": "",
+        "gold_sentence_idx": "",
+    },
+    {
+        "id": "q035",
+        "question": "",
+        "answer_text": "",
+        "gold_sentence_idx": "",
+    },
+    {
+        "id": "q036",
+        "question": "",
+        "answer_text": "",
+        "gold_sentence_idx": "",
+    },
+    {
+        "id": "q037",
+        "question": "",
+        "answer_text": "",
+        "gold_sentence_idx": "",
+    },
+    {
+        "id": "q038",
+        "question": "",
+        "answer_text": "",
+        "gold_sentence_idx": "",
+    },
+    {
+        "id": "q039",
+        "question": "",
+        "answer_text": "",
+        "gold_sentence_idx": "",
+    },
+    {
+        "id": "q040",
+        "question": "",
+        "answer_text": "",
+        "gold_sentence_idx": "",
+    },
+    {
+        "id": "q041",
+        "question": "",
+        "answer_text": "",
+        "gold_sentence_idx": "",
+    },
+    {
+        "id": "q042",
+        "question": "",
+        "answer_text": "",
+        "gold_sentence_idx": "",
+    },
+    {
+        "id": "q043",
+        "question": "",
+        "answer_text": "",
+        "gold_sentence_idx": "",
+    },
+    {
+        "id": "q044",
+        "question": "",
+        "answer_text": "",
+        "gold_sentence_idx": "",
+    },
+    {
+        "id": "q045",
+        "question": "",
+        "answer_text": "",
+        "gold_sentence_idx": "",
+    },
+    {
+        "id": "q046",
+        "question": "",
+        "answer_text": "",
+        "gold_sentence_idx": "",
+    },
+    {
+        "id": "q047",
+        "question": "",
+        "answer_text": "",
+        "gold_sentence_idx": "",
+    },
+    {
+        "id": "q048",
+        "question": "",
+        "answer_text": "",
+        "gold_sentence_idx": "",
+    },
+    {
+        "id": "q049",
+        "question": "",
+        "answer_text": "",
+        "gold_sentence_idx": "",
+    },
+    {
+        "id": "q050",
+        "question": "",
+        "answer_text": "",
+        "gold_sentence_idx": "",
+    },
+]
