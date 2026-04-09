@@ -269,4 +269,4 @@ Type questions at the `Question>` prompt. Add `--no_ce` to skip cross-encoder re
 
 ## Context
 
-This pipeline was developed as part of a dissertation project on dense retrieval for high-energy physics literature (ChATLAS). The ATLAS corpus consists of ~1000 papers scraped from the CERN Document Server (CDS), each split into overlapping sentence windows used as retrieval passages.
+This pipeline was developed as part of a dissertation project on dense retrieval for high-energy physics literature (ChATLAS). The ATLAS corpus was scraped from the CERN Document Server (CDS), each split into overlapping sentence windows used as retrieval passages.
