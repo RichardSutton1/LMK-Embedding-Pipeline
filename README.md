@@ -9,7 +9,7 @@ Dense retrieval pipeline for ChATLAS — a physics paper Q&A assistant built on 
 Standard bi-encoders compress a passage into a single vector using CLS (first token) or mean pooling. LMK pooling instead injects a special `<LMK>` token into the input at the end of each sentence boundary, and trains the model to aggregate passage information into that token's hidden state. This gives the model an explicit, learnable aggregation site:
 
 - **CLS** — position-biased toward the start of the sequence.
-- **Mean** — diluted by padding and uninformative tokens.
+- **Mean** — diluted by uninformative tokens.
 - **LMK** — dedicated token placed at the anchor sentence, trained to summarise the surrounding context window.
 
 During retrieval each document sentence becomes an *anchor*: its context window of up to `window_size` preceding sentences is encoded, and the `<LMK>` hidden state at the anchor position is used as the passage embedding.
