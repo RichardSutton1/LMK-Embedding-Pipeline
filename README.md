@@ -2,6 +2,9 @@
 
 Dense retrieval pipeline for ChATLAS — a physics paper Q&A assistant built on the ATLAS publication corpus. This repo contains every stage of the pipeline: scraping, training, hard-negative mining, evaluation, and inference, for a contrastively fine-tuned bi-encoder. Three pooling strategies are compared: LMK (landmark token), CLS, and mean pooling.
 
+# Motivation
+Physics literature presents retrieval challenges that general-purpose models are not equipped to handle: dense mathematical notation, heavy use of domain-specific acronyms (e.g. ATLAS, LHC, BSM), cross-paper dependencies where answers span multiple publications, and sentence structures that embed quantitative claims inside complex experimental context. Standard bi-encoders trained on general corpora systematically fail on these queries, motivating a domain-adapted approach trained specifically on ATLAS publication data.
+
 ---
 
 ## What is LMK pooling?
