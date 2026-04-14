@@ -30,6 +30,30 @@ During retrieval each document sentence becomes an *anchor*: its context window 
 
 All models fine-tuned for 16 epochs with in-batch negatives + hard negatives. Base model: `sentence-transformers/all-mpnet-base-v2`.
 
+## Results Visualisations
+
+### Embedding Space: Before vs After Fine-Tuning
+![t-SNE embeddings](Eval/tsne_before_after.png)
+*t-SNE projections of sentence embeddings before (BASE_LMK) and after (LMK_FT16) 
+fine-tuning. Fine-tuning produces tighter, more separable clusters — indicating 
+the model has learned to group semantically related physics passages together.*
+
+### Cosine Similarity Distributions
+![Cosine distributions](Eval/cosine_distribution.png)
+*Distribution of cosine similarity scores between query-positive and query-hard-negative 
+pairs, before and after fine-tuning. The margin between positives and hard negatives 
+widens significantly after training, showing the model has learned a more 
+discriminative embedding space.*
+
+### Acc@K Comparison Across Pooling Strategies
+![Acc@K comparison](Eval/pooling_comparison.png)
+*Acc@K curves for LMK, CLS, and Mean pooling after fine-tuning. LMK pooling 
+consistently outperforms both baselines across all K.*
+
+### MRR and Acc@k — All Models
+![MRR and Acc comparison](Eval/mrr_acc_comparison.png)
+*Full comparison of MRR and Acc@k across all model variants.*
+
 ---
 
 ## Pipeline overview
